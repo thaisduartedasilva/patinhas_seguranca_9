@@ -32,7 +32,7 @@ $animais = mysqli_query($conexao, "SELECT * FROM animais");
             <input type="email" name="email">
             <br>
             <label for="telefone">Telefone:</label>
-            <input type="number" name="telefone">
+            <input type="tel" name="telefone">
             <br><br>
             <button type="submit">Cadastrar</button>
         </form>
