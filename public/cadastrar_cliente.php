@@ -9,6 +9,6 @@ $telefone = $_POST["telefone"];
 $sql = "INSERT INTO clientes (nome, email, telefone) VALUES ('$nome', '$email', '$telefone')";
 
 mysqli_query($conexao, $sql);
-header("location: ../index.php");
+header("Location: ../index.php");
 
 ?>

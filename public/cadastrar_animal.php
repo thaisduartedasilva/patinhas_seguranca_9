@@ -9,6 +9,6 @@ $idade = $_POST["idade"];
 $sql = "INSERT INTO animais (nome, raca, idade) VALUES ('$nome', '$raca', '$idade')";
 
 mysqli_query($conexao, $sql);
-header("location: ../index.php");
+header("Location: ../index.php");
 
 ?>
