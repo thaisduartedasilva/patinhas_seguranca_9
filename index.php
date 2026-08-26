@@ -34,7 +34,7 @@ $animais = mysqli_query($conexao, "SELECT * FROM animais");
             <label for="telefone">Telefone:</label>
             <input type="tel" name="telefone">
             <br><br>
-            <a href="index2.php"><button type="submit">Cadastrar</button></a>
+            <button type="submit">Cadastrar</button>
         </form>
         <br>
         <h2>Cadastrar Pet:</h2>
@@ -48,7 +48,7 @@ $animais = mysqli_query($conexao, "SELECT * FROM animais");
             <label for="idade">Idade:</label>
             <input type="number" name="idade">
             <br><br>
-            <a href="index.php"><button type="submit">Cadastrar</button></a>
+            <button type="submit">Cadastrar</button>
         </form>
 
         <br><br>
