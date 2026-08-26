@@ -9,7 +9,7 @@ CREATE TABLE clientes (
 );
 
 CREATE TABLE animais (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id_a INT AUTO_INCREMENT PRIMARY KEY,
     id INT, 
     FOREIGN KEY (id) REFERENCES clientes(id),
     nome VARCHAR(100) NOT NULL,

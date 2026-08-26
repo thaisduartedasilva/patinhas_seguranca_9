@@ -66,7 +66,7 @@ $animais = mysqli_query($conexao, "SELECT * FROM animais");
                         <td><?php echo $cliente['telefone']; ?></td>
                         <td><?php echo $cliente['email']; ?></td>
                         <td>
-                            <a href="puplic/editar_cliente.php?id= <?php echo $cliente["id_"]; ?>">Editar</a>
+                            <a href="puplic/editar_cliente.php?id= <?php echo $cliente["id"]; ?>">Editar</a>
                             <a href="puplic/excluir_cliente.php?id= <?php echo $cliente["id"]; ?>">Excluir</a>
                     </tr>
                 <?php } ?>
@@ -89,8 +89,8 @@ $animais = mysqli_query($conexao, "SELECT * FROM animais");
                         <td><?php echo $animal['raca'] ?></td>
                         <td><?php echo $animal['idade'] ?></td>
                         <td>
-                            <a href="puplic/editar_animal.php?id= <?php echo $animal["id"] ?>">Editar</a>
-                            <a href="puplic/excluir_animal.php?id= <?php echo $animal["id"] ?>">Excluir</a>
+                            <a href="puplic/editar_animal.php?id= <?php echo $animal["id_a"] ?>">Editar</a>
+                            <a href="puplic/excluir_animal.php?id= <?php echo $animal["id_a"] ?>">Excluir</a>
                         </td>
                     </tr>
                 <?php } ?>
