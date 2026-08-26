@@ -50,4 +50,4 @@ O "ssi" significa:
 - s: string ($autor)
 - i: inteiro ($ano)
 
-Tive algumas ificuldades no fetch_assoc, mas com ajuda do professor Icaro eu consegui entender. 
+Tive algumas dificuldades no fetch_assoc, mas com ajuda do professor Ícaro eu consegui entender. Infelizmente tive algumas dificuldades em fazer com que o site funcione corretamente, quando clica em cadastrar cliente e cadastrar pet aparece uma mensagem de erro, também não consegui fazer com que o cliente fosse selecionado no cadastro de animal. 
